@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: HomeScreen.route,
-      theme: ThemeData(accentColor: kAccentColor),
+      theme: ThemeData(colorScheme: ColorScheme.fromSwatch().copyWith(secondary: kAccentColor)),
       routes: {
         HomeScreen.route: (context) => HomeScreen(),
         RentalDetail.route: (context) => RentalDetail(),

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vikram.doorstep">
+    package="com.stfrancisapartmentsmasaka">
    <application
         android:label="DoorStep"
         android:icon="@mipmap/ic_launcher">
